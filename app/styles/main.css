@@ -7,6 +7,8 @@
 
 body {
   padding: 0;
+  /*background-image: url("../images/bluebkg.jpg");
+  background-repeat: repeat;*/
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -81,3 +83,16 @@ body {
     border-bottom: 0;
   }
 }
+
+form input.ng-invalid.ng-touched {
+  background-color: #FA787E;
+} 
+
+form input.ng-valid.ng-touched {
+  background-color: #78FA89;
+}
+
+.warning-txt {
+  font-size: 14px !important;
+}
+
