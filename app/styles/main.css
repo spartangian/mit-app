@@ -6,9 +6,13 @@
 }
 
 body {
+<<<<<<< HEAD
   padding: 0;
   /*background-image: url("../images/bluebkg.jpg");
   background-repeat: repeat;*/
+=======
+  padding: 0;background:whitel;
+>>>>>>> index
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -21,8 +25,8 @@ body {
 
 /* Custom page header */
 .header {
-  border-bottom: 1px solid #e5e5e5;
-  margin-bottom: 10px;
+  border-bottom: 0px solid #e5e5e5;
+  margin-bottom: 10px;margin:0px !important;
 }
 /* Make the masthead heading the same height as the navigation */
 .header h3 {
@@ -30,6 +34,11 @@ body {
   margin-bottom: 0;
   line-height: 40px;
   padding-bottom: 19px;
+}
+
+.navbar-default{
+
+  border-bottom:1px solid #ddd;background:white;
 }
 
 /* Custom page footer */
@@ -72,7 +81,7 @@ body {
   .marketing,
   .footer {
     padding-left: 0;
-    padding-right: 0;
+    padding-right: 0;background:rgba(0,0,0,0.6);color:white;
   }
   /* Space out the masthead */
   .header {
@@ -85,6 +94,38 @@ body {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+/*abel codes*/
+.navbar{
+
+  margin-bottom:0px ;
+}
+.thumb-img{                          
+  width:75%;
+}
+.thumbnail{
+  border:0px;
+}
+
+.banner{
+  width:100%;
+  height:auto;background:whitesmoke;margin-bottom:20px;
+}
+
+.title,.details{
+  text-align:center;
+}
+
+.navbar-brand span{
+  font-weight:bold;color:#3366cc;
+
+}
+
+
+
+=======
+>>>>>>> index
 /* */
 .circle {
     width: 80px;
@@ -92,6 +133,7 @@ body {
     border: 3px solid #aaa;
     border-radius: 100px; 
 }
+<<<<<<< HEAD
 =======
 form input.ng-invalid.ng-touched {
   background-color: #FA787E;
@@ -106,3 +148,6 @@ form input.ng-valid.ng-touched {
 }
 
 >>>>>>> login_form
+=======
+>>>>>>> master
+>>>>>>> index
