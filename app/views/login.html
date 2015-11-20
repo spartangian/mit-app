@@ -1,0 +1,23 @@
+<div class="jumbotron">
+  <img src="images/yeoman.png" alt="I'm Yeoman" style = "margin-left:auto; margin-right:auto;"><br>
+  <h1>Login</h1>
+  <div class = "alert alert-success" style = "display:none;"><p></p></div> 
+  <div class = "alert alert-danger" style = "display:none;"><p></p></div> 
+  <p class="lead">
+    <div ng-controller = "LoginCtrl"> 
+        <form novalidate class = "test-form" name = "testForm">
+          <label>Username</label> <input type ="text" class="form-control input-lg" name = "username" ng-model = "user.uname" required ng-minlength = "3">
+          <p ng-show="testForm.username.$touched && testForm.username.$error.required" class="help-block text-danger warning-txt" style = "">Username is required.</p>
+          <p ng-show="testForm.username.$error.minlength" class="help-block text-danger warning-txt">Username is too short.</p>
+          <label>Password</label> <input type = "password" class="form-control input-lg" name = "password" ng-model = "user.password" required ng-minlength = "3"> 
+          <p ng-show="testForm.password.$touched && testForm.password.$pristine" class="help-block text-danger warning-txt">Password is required.</p>
+          <p ng-show="testForm.password.$error.minlength" class="help-block text-danger warning-txt">Password is too short.</p>
+          
+    <a href = "javascript:;">Forgot Password?</a><br> Does'nt have an account? <a href = "javascript:;">Sign up</a> now!
+  </p>
+  <p><a class="btn btn-lg btn-success" ng-click="submit(user)" ng-disabled = "testForm.$invalid">Login</a></p>
+        </form>
+    </div>
+</div>
+
+

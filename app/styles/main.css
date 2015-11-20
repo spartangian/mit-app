@@ -7,6 +7,8 @@
 
 body {
   padding: 0;
+  /*background-image: url("../images/bluebkg.jpg");
+  background-repeat: repeat;*/
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -82,6 +84,7 @@ body {
   }
 }
 
+<<<<<<< HEAD
 /* */
 .circle {
     width: 80px;
@@ -89,3 +92,17 @@ body {
     border: 3px solid #aaa;
     border-radius: 100px; 
 }
+=======
+form input.ng-invalid.ng-touched {
+  background-color: #FA787E;
+} 
+
+form input.ng-valid.ng-touched {
+  background-color: #78FA89;
+}
+
+.warning-txt {
+  font-size: 14px !important;
+}
+
+>>>>>>> login_form
